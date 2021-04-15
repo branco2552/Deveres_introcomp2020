@@ -1,0 +1,29 @@
+#similar ao "#include<math.h> na linguagem C"
+#from math import *
+#import math;
+
+"""
+Programa que recebe uma lista de inteiros e retorna o maior numero entre eles
+O programa para quando o usuario digita duas vezes o mesmo numero
+"""
+#Que sono viado pqp
+
+
+numeroDELT=int(input());
+numero= int(input())
+maior= -1001; #qualquer numero eh maior que -1001
+
+if -1000 <= numeroDELT or numeroDELT >= 1000:
+    while numeroDELT!= numero:
+        numero= int(input());
+
+        if numero > maior:
+            maior = numero;
+            
+
+if numero > maior: #Certificação que o codigo de certo
+    maior= numero;
+    
+
+print("{}".format(maior));
+    
